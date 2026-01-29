@@ -68,7 +68,7 @@
 
         const meta = document.createElement('meta'); // meta refresh
         meta.httpEquiv = "refresh";
-        meta.content = `${seconds + 1}; url=${redirectUrl}`;
+        meta.content = `${seconds}; url=${redirectUrl}`;
         document.getElementsByTagName('head')[0].appendChild(meta);
 
         const countdownElement = document.getElementById('countdown'); // countdown
